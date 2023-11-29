@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hoteljesvi.com/sitemap.xml
