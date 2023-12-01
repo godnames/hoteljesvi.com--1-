@@ -122,6 +122,7 @@
     background-color: whitesmoke;
     border-radius: 1rem;
     color:black!important;
+    animation: myanimation 5s infinite;
 
 }
 .home__about__text span a:hover{
@@ -130,6 +131,36 @@
 
     color:white !important;
 
+}
+.section-title p{
+    
+    padding: 20px 120px 0 120px;
+    text-align: inherit;
+}
+
+.section-title ul{
+    padding-top: 40px;
+    padding-left: 10% !important;
+    list-style-type:disc;
+    display: block;
+}
+.section-title ul li{
+    text-align: left;
+    font-weight: 500 !important;
+    font-size: larger;
+}
+.section-title ul li::marker{
+    color: #ff6e40;
+    font-size: 25px;
+    
+}
+
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:yellow;}
+  50%{background-color:green;}
+  75%{background-color:brown;}
+  100% {background-color: #0400ff;}
 }
     </style>
 <!-- Global site tag (gtag.js) - Google Ads: 10818236540 -->
@@ -302,26 +333,33 @@
         </div>
     </section>
 
-    <section class="history spad" style="padding-top: 0;">
+    <section class="history spad" style="padding-top: 60px !important;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title history-title">
                         <!-- <h5>Our History</h5> -->
                         <h2>Why Choose Us</h2>
-                        <p>
+                        <p >
                             At our Hotel J & Banquet Hall, we take pride in making your event as special as you envision at budget price. Your special occasion deserves a special venue, and Hotel J Banquet Hall aims to be that place. From the initial planning stages to the execution, we provide a seamless experience, ensuring the success of your event. Make your reservations now and let Hotel J Banquet Hall be the backdrop for your cherished memories. Whether you're in Jogeshwari or the neighboring Andheri area, our banquet hall is your perfect choice. We look forward to helping you create memories that last a lifetime.
                         </p>
+                        <ul>
+                            
+                            <li>Rich décor and highly rated 3-Star Hotel</li>
+                            <li>Flexibility of 25 to 200 guests with different set-ups</li>
+                            <li>High-quality food made by specialist chefs and option to do own catering</li>
+                            <li>Reasonable pricing compared to similar venues</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-            <div class="history__content">
+            <!-- <div class="history__content">
                 <div class="row">
                     <div class="col-lg-5 col-md-5">
                         <div class="history__item left__item">
                             <div class="history__date"></div>
-                            <!-- <span>11 Dec 1990</span> -->
-                            <!-- <h4>Where We Are Located</h4> -->
+                            <!-- <span>11 Dec 1990</span> --
+                            <!-- <h4>Where We Are Located</h4> --
                             
                             <h3>Rich décor and highly rated 3-Star Hotel</h3>
                             
@@ -329,7 +367,7 @@
                         <div class="history__item left__item mb-0">
                             <div class="history__date"></div>
                             <!-- <span>29 Jan 1990</span> -->
-                            <!-- <h4>Our Rooms and Amenities</h4> -->
+                            <!-- <h4>Our Rooms and Amenities</h4> --
                             
                             <h3>High-quality food made by specialist chefs and option to do own catering</h3>
                            
@@ -339,7 +377,7 @@
                         <div class="history__item right__first__item">
                             <div class="history__date"></div>
                             <!-- <span>08 March 1990</span> -->
-                            <!-- <h4>Where to Eat</h4> -->
+                            <!-- <h4>Where to Eat</h4> --
                             
                             <h3>Flexibility of 25 to 200 guests with different set-ups</h3>
                             
@@ -347,14 +385,14 @@
                         <div class="history__item mb-0">
                             <div class="history__date"></div>
                             <!-- <span>06 July 1990</span> -->
-                            <!-- <h4>Nearby Attractions</h4> -->
+                            <!-- <h4>Nearby Attractions</h4> --
                             
                             <h3>Reasonable pricing compared to similar venues</h3>
                             
                         </div> 
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
     </section>
 
